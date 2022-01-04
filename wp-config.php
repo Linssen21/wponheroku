@@ -56,13 +56,16 @@
 
 
 
-define( 'DB_USER', 'epiz_30735154_wpswoopheroku' );
+define( 'DB_NAME', 'epiz_30735154_wpswoopheroku' );
+
+/** MySQL database username */
+define( 'DB_USER', 'epiz_30735154' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '[Q-5OSX53p' );
+define( 'DB_PASSWORD', '9xrsS9vXK2H8D4' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'sql211.byetcluster.com' );
+define( 'DB_HOST', 'sql211.epizy.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
