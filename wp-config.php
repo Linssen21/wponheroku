@@ -37,16 +37,32 @@
 // /** The database collate type. Don't change this if in doubt. */
 // define( 'DB_COLLATE', '' );
 
-define( 'DB_NAME', 'HjIcaugmKI' );
+// define( 'DB_NAME', 'HjIcaugmKI' );
 
-/** MySQL database username */
-define( 'DB_USER', 'HjIcaugmKI' );
+// /** MySQL database username */
+// define( 'DB_USER', 'HjIcaugmKI' );
+
+// /** MySQL database password */
+// define( 'DB_PASSWORD', 'JeMMOFjPEE' );
+
+// /** MySQL hostname */
+// define( 'DB_HOST', 'remotemysql.com' );
+
+// /** Database charset to use in creating database tables. */
+// define( 'DB_CHARSET', 'utf8mb4' );
+
+// /** The database collate type. Don't change this if in doubt. */
+// define( 'DB_COLLATE', '' );
+
+
+
+define( 'DB_USER', 'epiz_30735154_wpswoopheroku' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'JeMMOFjPEE' );
+define( 'DB_PASSWORD', '[Q-5OSX53p' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'remotemysql.com' );
+define( 'DB_HOST', 'sql211.byetcluster.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
