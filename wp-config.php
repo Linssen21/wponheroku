@@ -20,40 +20,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-// define( 'DB_NAME', 'swoop' );
-
-// /** MySQL database username */
-// define( 'DB_USER', 'root' );
-
-// /** MySQL database password */
-// define( 'DB_PASSWORD', '' );
-
-// /** MySQL hostname */
-// define( 'DB_HOST', 'localhost' );
-
-// /** Database charset to use in creating database tables. */
-// define( 'DB_CHARSET', 'utf8mb4' );
-
-// /** The database collate type. Don't change this if in doubt. */
-// define( 'DB_COLLATE', '' );
-
-define( 'DB_NAME', 'HjIcaugmKI' );
+define( 'DB_NAME', 'swoop' );
 
 /** MySQL database username */
-define( 'DB_USER', 'HjIcaugmKI' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'JeMMOFjPEE' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'remotemysql.com' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
-
 
 /**#@+
  * Authentication unique keys and salts.
@@ -97,7 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
