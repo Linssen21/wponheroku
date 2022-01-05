@@ -20,13 +20,57 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+<<<<<<< HEAD
 define( 'DB_NAME', 'swoop' );
+=======
+// define( 'DB_NAME', 'swoop' );
+
+// /** MySQL database username */
+// define( 'DB_USER', 'root' );
+
+// /** MySQL database password */
+// define( 'DB_PASSWORD', '' );
+
+// /** MySQL hostname */
+// define( 'DB_HOST', 'localhost' );
+
+// /** Database charset to use in creating database tables. */
+// define( 'DB_CHARSET', 'utf8mb4' );
+
+// /** The database collate type. Don't change this if in doubt. */
+// define( 'DB_COLLATE', '' );
+
+// define( 'DB_NAME', 'HjIcaugmKI' );
+
+// /** MySQL database username */
+// define( 'DB_USER', 'HjIcaugmKI' );
+
+// /** MySQL database password */
+// define( 'DB_PASSWORD', 'JeMMOFjPEE' );
+
+// /** MySQL hostname */
+// define( 'DB_HOST', 'remotemysql.com' );
+
+// /** Database charset to use in creating database tables. */
+// define( 'DB_CHARSET', 'utf8mb4' );
+
+// /** The database collate type. Don't change this if in doubt. */
+// define( 'DB_COLLATE', '' );
+
+
+
+define( 'DB_NAME', 'HjIcaugmKI' );
+>>>>>>> 94cb58d75b9e7d0563d444f02322fd0c2dac6d69
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
+<<<<<<< HEAD
 define( 'DB_PASSWORD', '' );
+=======
+define( 'DB_PASSWORD', '4kdmD7yuEM' );
+>>>>>>> 94cb58d75b9e7d0563d444f02322fd0c2dac6d69
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
