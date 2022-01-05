@@ -1,0 +1,42 @@
+.elementor-31 .elementor-element.elementor-element-5f44c49{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 0px 0px;z-index:10;}.elementor-31 .elementor-element.elementor-element-5f44c49 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-31 .elementor-element.elementor-element-f903ea1.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-31 .elementor-element.elementor-element-f903ea1.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-31 .elementor-element.elementor-element-f903ea1.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-31 .elementor-element.elementor-element-6a299f1{text-align:left;}.elementor-31 .elementor-element.elementor-element-6a299f1 img{height:80px;object-fit:contain;}.elementor-bc-flex-widget .elementor-31 .elementor-element.elementor-element-66bcd6a.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-31 .elementor-element.elementor-element-66bcd6a.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-31 .elementor-element.elementor-element-66bcd6a.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-31 .elementor-element.elementor-element-d0718af{--grid-template-columns:repeat(0, auto);--icon-size:30px;--grid-row-gap:0px;}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-widget-container{text-align:right;}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-social-icon{background-color:#111111;}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-social-icon i{color:var( --e-global-color-text );}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-social-icon svg{fill:var( --e-global-color-text );}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-icon{border-radius:0px 0px 0px 0px;}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-social-icon:hover i{color:var( --e-global-color-accent );}.elementor-31 .elementor-element.elementor-element-d0718af .elementor-social-icon:hover svg{fill:var( --e-global-color-accent );}@media(max-width:1024px){.elementor-31 .elementor-element.elementor-element-5f44c49{padding:0px 20px 0px 20px;}}@media(max-width:767px){.elementor-31 .elementor-element.elementor-element-5f44c49{padding:0px 10px 0px 10px;}.elementor-31 .elementor-element.elementor-element-f903ea1{width:50%;}.elementor-31 .elementor-element.elementor-element-6a299f1 img{width:80%;}.elementor-31 .elementor-element.elementor-element-66bcd6a{width:50%;}.elementor-31 .elementor-element.elementor-element-d0718af{--icon-size:25px;}}/* Start custom CSS for section, class: .elementor-element-5f44c49 */header.sticky-header {
+     
+    --opacity: 1;
+    --shrink-me: 0.80;
+    --sticky-background-color: #111111;
+    --transition: .3s ease-in-out;
+    transition: all ease .5s;
+    transition: background-color var(--transition),
+                background-image var(--transition),
+                backdrop-filter var(--transition),
+                opacity var(--transition);
+}
+header.sticky-header.elementor-sticky--effects {
+    background-color: var(--sticky-background-color) !important;
+    background-image: none !important;
+    opacity: var(--opacity) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+     top: 0px !important;
+      -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+header.sticky-header > .elementor-container {
+    transition: min-height var(--transition);
+}
+
+header.sticky-header .elementor-nav-menu .elementor-item {
+    transition: padding var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+header.sticky-header > .elementor-container .logo img {
+    transition: max-width var(--transition);
+   
+}
+header.sticky-header.elementor-sticky--effects .logo img {
+    max-width: calc(100% * var(--shrink-me));
+     height: 50px;
+}/* End custom CSS */

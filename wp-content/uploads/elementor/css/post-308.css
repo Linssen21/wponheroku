@@ -1,0 +1,10 @@
+.elementor-308 .elementor-element.elementor-element-c49b8a6 > .elementor-container{max-width:769px;}.elementor-308 .elementor-element.elementor-element-e04349a .elementor-custom-embed-play i{color:var( --e-global-color-accent );}.elementor-308 .elementor-element.elementor-element-e04349a > .elementor-widget-container{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}@media(min-width:1025px){#elementor-lightbox-e04349a .elementor-video-container{width:60%;}}/* Start custom CSS for video, class: .elementor-element-e04349a */.elementor-308 .elementor-element.elementor-element-e04349a .elementor-custom-embed-image-overlay.elementor-clickable:before{
+        content: "";
+    background-color: #010101;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}/* End custom CSS */
