@@ -121,8 +121,8 @@ define( 'WP_DEBUG', true );
 
 
 # update wp-config file
-define('WP_HOME','http://example.com');
-define('WP_SITEURL','http://example.com');
+define('WP_HOME','http://wpswoop.herokuapp.com');
+define('WP_SITEURL','http://wpswoop.herokuapp.com');
 
 #also add
 define('FORCE_SSL_ADMIN', true);
