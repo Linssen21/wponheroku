@@ -20,9 +20,6 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-<<<<<<< HEAD
-define( 'DB_NAME', 'swoop' );
-=======
 // define( 'DB_NAME', 'swoop' );
 
 // /** MySQL database username */
@@ -60,17 +57,12 @@ define( 'DB_NAME', 'swoop' );
 
 
 define( 'DB_NAME', 'HjIcaugmKI' );
->>>>>>> 94cb58d75b9e7d0563d444f02322fd0c2dac6d69
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-<<<<<<< HEAD
-define( 'DB_PASSWORD', '' );
-=======
 define( 'DB_PASSWORD', '4kdmD7yuEM' );
->>>>>>> 94cb58d75b9e7d0563d444f02322fd0c2dac6d69
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
