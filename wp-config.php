@@ -120,6 +120,15 @@ define( 'WP_DEBUG', true );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
+# update wp-config file
+define('WP_HOME','http://example.com');
+define('WP_SITEURL','http://example.com');
+
+#also add
+define('FORCE_SSL_ADMIN', true);
+if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false)
+    $_SERVER['HTTPS']='on';
+
 
 /* That's all, stop editing! Happy publishing. */
 
